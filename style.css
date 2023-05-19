@@ -1,0 +1,125 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    background: url("/images/ing2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left {
+    color: aliceblue;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+}
+
+.mid {
+    color: white;
+    display: block;
+    width: 40%;
+    margin: 12px auto;
+}
+
+.right {
+    display: inline-block;
+    color: aliceblue;
+    position: absolute;
+    right: 32px;
+    top: 24px;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+
+.navbar li a:hover{
+    color: #ff7a18;;
+}
+.navbar li a.active {
+    background-color: rgb(44, 43, 43);
+    color: #ff7a18;;
+}
+
+.left img {
+    width: 91px;
+    filter: invert(100%);
+}
+
+.left div {
+    font-size: 17px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.bttn {
+    color: white;
+    font-size: 12px;
+    background-color: transparent;
+    margin: 5px 4px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.bttn:hover {
+    background-color: rgb(59, 49, 49);
+}
+
+.container button:hover {
+    background-color: rgb(36, 26, 131);
+    border: 2px solid rgb(36, 26, 131);
+}
+
+.container {
+    border: 2px solid beige;
+    border-radius: 10px;
+    position: absolute;
+    left: 90px;
+    top: 150px;
+    width: 30%;
+    padding: 18px;
+}
+
+.form-grp input {
+    text-align: center;
+    display: block;
+    padding: 2px;
+    width: 79%;
+    border: 2px solid black;
+    margin: 4px auto;
+    font-size: 15px;
+    border-radius: 9px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.container button {
+    font-size: 15px;
+    display: block;
+    width: 79%;
+    margin: 25px auto;
+    padding: 8px;
+}
+
+.form-grp input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
